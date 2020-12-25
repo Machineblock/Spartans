@@ -1,0 +1,79 @@
+<!Doctype html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0,minimun-scale=1.0, shrink-to-fit=no">     
+  
+   <title>Registro</title>
+  <link  rel="stylesheet" href="assets/css/loginstyle.css">
+  <link  rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="icon" href="assets/img/logospartan.png">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div id="particles-js"></div>
+        
+
+            <div class="form-box">
+                <div class="box">
+                <div class="button-box">
+                    <div class="image-login">
+                        <a href="index.html"><img src="assets/img/logospartan.png"></a>
+                    </div>    
+                </div>
+
+                <form action="assets/php/guardar.php" method="post" id="register" class="input-group">
+                    
+                    <input type="text" class="input-field" name="nombres" placeholder="Nombre*" required>
+                    
+                    <input type="email" class="input-field" name="email" placeholder="Correo electrónico*" required>
+
+                    <a>Edad*<select class="input-field" name="edad" required>
+                        <option>15-20</option>
+                        <option>21-25</option>
+                        <option>26-30</option>
+                        <option>31-35</option>
+                        <option>36-40</option>
+                        <option>41-45</option>
+                        <option>50- +60</option>
+                        </select></a>
+
+                    <input type="tel" class="input-field" name="numero" placeholder="Numero telefónico*" required>
+
+                    <a>Pais*<select class="input-field" name="pais" required>
+                        <option>Colombia</option>
+                        <option>Chile</option>
+                        <option>Brasil</option>
+                        <option>Paraguay</option>
+                        <option>Costa rica</option>
+                        </select></a>
+                    
+
+                    <input type="checkbox" class="check-box" required><span>Acepto términos y condiciones</span>
+
+                    <a href="index.html"><button type="submit" class="sumbit-btn">Registrar</button></a>
+                </form>
+                
+                
+            </div>
+            </div>
+        </div>
+    
+    
+    <script src="assets/js/loginscript.js"></script>
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
